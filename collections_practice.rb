@@ -43,5 +43,10 @@ def add_s(array)
   # end
   # array[1] = "feet"
   # array
-  array.collect! {|array| array + "s" if !array[1]}
+  array.each_with_index.collect do |element, index|
+    if element[index] = element[1]
+      element
+    else
+      element + "s"
+    end
 end
