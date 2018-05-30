@@ -43,5 +43,5 @@ def add_s(array)
     element[1] = feet
   end
   array
-  end
+
 end
