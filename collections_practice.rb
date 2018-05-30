@@ -37,7 +37,7 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.collect do |element, index|
+  array.collect! do |element, index|
     # feet = element[1]
     element + "s"
     # element[1] = feet
