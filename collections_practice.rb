@@ -38,9 +38,7 @@ end
 
 def add_s(array)
   array.collect! do |element|
-
     element + "s"
-
   end
   array
 
