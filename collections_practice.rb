@@ -37,7 +37,7 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.collect! do |array|
+  array.collect! do |element|
     # puts element
     # puts array[1]
     # if !array[1]
