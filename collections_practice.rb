@@ -40,10 +40,10 @@ def add_s(array)
   array.collect! do |element|
     # puts element
     # puts array[1]
-    if !array[1]
-      puts array[0]
+    # if !array[1]
+    #   puts array[0]
       array + "s"
-    end
+    # end
   end
   array
 
