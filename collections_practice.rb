@@ -43,7 +43,7 @@ def add_s(array)
     # if !array[1]
       puts array[0]
 
-      array + "s"
+      elements + "s"
     # end
   end
   # array
