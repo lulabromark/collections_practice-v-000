@@ -41,7 +41,7 @@ def add_s(array)
     puts element[1]
     if !element[1]
       element + "s"
-      
+
     else
       element
     end
