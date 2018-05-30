@@ -40,7 +40,7 @@ def add_s(array)
   array.collect! do |element, index|
     # feet = element[1]
     element + "s"
-    # element[1] = feet
+    element[1] = feet
   end
   array
 
