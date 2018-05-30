@@ -42,6 +42,5 @@ def add_s(array)
       array + "s"
   end
   array[1] = "feet"
-array
-
+  array
 end
