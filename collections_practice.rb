@@ -37,12 +37,6 @@ def sum_array(array)
 end
 
 def add_s(array)
-  # array.collect! do |array|
-  #     puts array[0]
-  #     array + "s"
-  # end
-  # array[1] = "feet"
-  # array
   array.each_with_index.collect do |element, index|
     if element[index] == element[1]
       element
